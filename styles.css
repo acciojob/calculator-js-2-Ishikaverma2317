@@ -21,6 +21,7 @@ body {
     font-size: 28px;
     text-align: right;
     margin-bottom: 10px;
+    overflow-x: auto;
 }
 
 .btn-row {
@@ -44,6 +45,7 @@ button:hover {
     background: #4a5cff;
     color: white;
 }
+
 .equal:hover {
     background: #2f3efb;
 }
