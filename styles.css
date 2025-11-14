@@ -1,1 +1,49 @@
-/*  your css code here. If applicable */
+body {
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Arial;
+}
+
+.calculator {
+    width: 320px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.display {
+    height: 70px;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 28px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.btn-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    height: 60px;
+    font-size: 22px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e8e8e8;
+}
+
+.equal {
+    background: #4a5cff;
+    color: white;
+}
+.equal:hover {
+    background: #2f3efb;
+}
